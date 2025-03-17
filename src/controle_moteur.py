@@ -3,7 +3,7 @@ import time
 
 # Définition des broches
 IN1, IN2, ENA = 17, 27, 18
-IN3, IN4, ENB = 23, 24, 19
+IN3, IN4, ENB = 24, 25, 19
 
 GPIO.setmode(GPIO.BCM)  # On utilise le mode Broadcom
 GPIO.setup([IN1, IN2, ENA, IN3, IN4, ENB], GPIO.OUT)
